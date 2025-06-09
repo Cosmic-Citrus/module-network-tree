@@ -34,6 +34,10 @@ This code is a working roughdraft that can be further optimized for speed, clari
 * 0.1
   * Initial Release
 
+## To-Do
+* make text-file using `|` and `_` to show import hierarchy structure
+* arrange plotted network as cleaner structure of layers
+
 ## License
 
 This project is licensed under the GNU AFFERO GENERAL PUBLIC LICENSE License - see the LICENSE.md file for details
