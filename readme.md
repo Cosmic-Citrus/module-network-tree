@@ -40,4 +40,4 @@ This code is a working roughdraft that can be further optimized for speed, clari
 
 ## License
 
-This project is licensed under the GNU AFFERO GENERAL PUBLIC LICENSE License - see the LICENSE.md file for details
+This project is licensed under the GNU AFFERO GENERAL PUBLIC LICENSE - see the LICENSE file for details
