@@ -1,6 +1,6 @@
 # Repo:    module-network-tree
 
-This purpose of this code is to better understand the relationships between multiple files in a code-base.
+This purpose of this code is to better understand the hierarchical relationships between multiple files in a code-base.
 
 ## Description
 
