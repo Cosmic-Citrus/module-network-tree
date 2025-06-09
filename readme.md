@@ -6,7 +6,7 @@ This purpose of this code is to better understand the relationships between mult
 
 Given the path to the directory that contains the code-base files, one can view an image of a graph network that shows the relationships between the multiple files - this includes imports and top-level packages; one can also view a text-file that contains this information. 
 
-<img title="" src="file:///Users/owner/Desktop/programming/module_network_tree/output/module_network_graph.png" alt="example-network_graph" data-align="inline">
+<img title="" src="output/module_network_graph.png" alt="example-network_graph" data-align="inline">
 
 This code is a working roughdraft that can be further optimized for speed, clarity, utility, and length.
 
