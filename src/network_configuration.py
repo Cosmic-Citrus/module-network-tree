@@ -83,24 +83,25 @@ class BaseNetworkConfiguration(BasePlotterConfiguration):
 				if not graph.has_node(module_name):
 					graph.add_node(
 						module_name)
-				for import_name in import_names:
-					if not graph.has_edge(module_name, import_name):
-						common_state_at_successor = get_import_state(
-							module_name=import_name,
-							key="common",
-							is_include=is_include_common)
-						uncommon_state_at_successor = get_import_state(
-							module_name=import_name,
-							key="uncommon",
-							is_include=is_include_uncommon)
-						custom_state_at_successor = get_import_state(
-							module_name=import_name,
-							key="custom",
-							is_include=is_include_custom)
-						if (common_state_at_successor or uncommon_state_at_successor or custom_state_at_successor):
-							graph.add_edge(
-								module_name,
-								import_name)
+				if import_names is not None:
+					for import_name in import_names:
+						if not graph.has_edge(module_name, import_name):
+							common_state_at_successor = get_import_state(
+								module_name=import_name,
+								key="common",
+								is_include=is_include_common)
+							uncommon_state_at_successor = get_import_state(
+								module_name=import_name,
+								key="uncommon",
+								is_include=is_include_uncommon)
+							custom_state_at_successor = get_import_state(
+								module_name=import_name,
+								key="custom",
+								is_include=is_include_custom)
+							if (common_state_at_successor or uncommon_state_at_successor or custom_state_at_successor):
+								graph.add_edge(
+									module_name,
+									import_name)
 		cycles = list(
 			nx.simple_cycles(
 				graph))
