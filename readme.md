@@ -26,8 +26,7 @@ This code is a working roughdraft that can be further optimized for speed, clari
 ### Executing program
 
 * Download this repository to your local computer
-* Modify `path_to_directory` and `path_to_save_directory` in `src/example.py`
-* Run `src/example.py`
+* Modify `path_to_directory` and `path_to_save_directory` in `src/example.py`, then run the script
 
 ## Version History
 
